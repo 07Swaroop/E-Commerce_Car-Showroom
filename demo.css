@@ -1,0 +1,375 @@
+.main-slider {
+    position: relative;
+}
+.slider-img {
+    position: relative;
+}
+.slider-img img {
+    width: 100%;
+    height: 600px;
+}
+.slider-text {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+}
+#slide {
+    text-align: center;
+    padding: 25px;
+}
+.textside {
+    margin-left: 0;
+    margin-right: 0;
+    display: initial;
+}
+h6 {
+    /* -webkit-text-stroke: 0.5px #000; */
+    color: #fff;
+    font-weight: bold;
+    font-size: 67px;
+    line-height: 70px;
+     font-family: "Open Sans",Sans-serif;
+    letter-spacing: 1px;
+}
+.content h1 {
+    z-index: 1;
+   font-family:cursive;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: unset;
+    line-height: 50px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.more_btn {
+    background: #ac8c71;
+    color: #f5f2f2;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding: 13px 40px;
+    display: inline-block;
+    margin: 40px 0 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px #0a0a0a9c;
+    transition: 0.5s;
+    animation-delay: 1s;
+    animation-duration: 1s;
+     font-family: "Open Sans",Sans-serif;
+}
+.bx-wrapper {
+    border: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    background: none;
+}
+.slider-img:before {
+    position: absolute;
+    content: '';
+    background:#303628b8;
+}
+
+.slider-img:before {
+    /* background: #002147 none repeat scroll 0 0; */
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+h6{
+    color: rgb(218, 192, 181);
+    font-size: 50px;
+    font-family: cursive;
+    margin-top: -150px;
+    text-shadow: 4px 4px 5px rgb(63, 61, 61);
+}
+
+/* Header */
+ .navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 254, 220);
+   
+}
+.navbar img{
+    margin-right: 520px;
+    margin-left: -30px;
+    
+}
+header{
+    background-color: rgb(255, 254, 220);
+    top: 0;
+    z-index: 1000;
+    position: sticky;
+}
+ul li{
+    padding-left: 40px;
+    font-size: 20px;
+}
+/* about */
+.Gallery1{
+    color:rgb(83, 31, 31);
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 4px 4px 5px rgb(238, 232, 232);
+    margin-top: 5px;
+   font-family: 'Times New Roman', Times, serif;
+    height: 60px;
+    
+}
+.rowabout{
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.span1{
+color: rgb(87, 25, 25);
+}
+.row .col h3{
+    color: rgb(224, 202, 105);
+    font-weight: bold;
+    font-size: 20px;
+}
+.vl{
+    height: 300px;
+    border: 1px solid rgba(232, 233, 164, 0.815);
+    margin-left: 10px;
+    box-shadow: 4px 4px 5px gainsboro;
+}
+.colinfo{
+    margin-left: 20px;
+ text-align: justify;
+}
+/* card */ 
+.Gallery{
+    color: rgb(83, 31, 31);
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 4px 4px 5px rgb(238, 232, 232);
+    margin-top: 5px;
+   font-family: 'Times New Roman', Times, serif;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+   
+
+}
+.cate{
+    background-color: antiquewhite;
+    padding-bottom: 30px;
+}
+.Gallery3{
+    color: rgb(223, 221, 156);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -50px;
+  
+}
+.car{
+   
+    box-shadow: 10px 10px gainsboro;
+    border: 1px solid black;
+
+}
+
+.car1{
+    padding: 10px;
+}
+span{
+    color: #e4d0a6;
+    text-shadow: 4px 4px 5px rgb(235, 231, 231);
+}
+.row1{
+    margin-top: -20px;
+   
+    
+}
+.row2{
+    margin-top: 20px;
+    
+
+}
+.ct{
+    font-size: 80px;
+    font-weight: 600;
+    color: rgb(25, 25, 129);
+}
+.btn-primary{
+    background-color: rgb(223, 214, 140);
+ font-weight: bold;
+ color: #1d1814;
+    border: none;
+    
+}
+.btn-primary:hover{
+    background-color: black;
+}
+/* product */
+.navbar1{
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(231, 231, 201);
+   position: fixed;
+   margin-top: 80px;
+}
+.u,.l{
+    padding-left: 90px;
+    font-size: 15px;
+ 
+}
+.u,.l a{
+    padding-left: 90px;
+    font-size: 15px;
+ font-weight: bold;
+ color: rgb(99, 31, 31);
+ 
+}
+.rowabout1{
+    margin-top: 90px;
+}
+.carpro{
+    margin-bottom: 70px;
+}
+.col img{
+
+box-shadow: 10px 10px rgb(238, 236, 236);
+}
+.colinfo2{
+    
+    margin-right: 100px;
+}
+/* services */
+i{
+    align-items: center;
+    background-color: rgb(247, 241, 165);
+}
+.car2{
+    box-shadow: 10px 10px rgb(185, 182, 182);
+
+
+}
+.car2:hover{
+    background-color: rgb(226, 225, 186);
+}
+.ser{
+    box-shadow: 10px 10px gainsboro;
+   
+}
+.servi1{
+    margin-top: -500px;
+}
+/* banner */
+.bg img{
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    box-shadow: 10px 10px black;
+    border: 2px solid black;
+}
+.banner{
+    margin-top: 20px;
+}
+.blurcon{
+    margin-top: 40px;
+}
+
+/* footer */
+.contact{
+    display: flex;
+    padding: 100px;
+ 
+    background-size: cover;
+    margin-right: 100px;
+    color: rgb(253, 250, 251);
+    font-size: 20px;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    padding-left: 90px;
+   
+}
+.contact.sec{
+    margin-left: 170px;
+   
+}
+.section1{
+margin-right: 100px;
+
+}
+.section2{
+    margin-right: 80px;
+    }
+    .section3{
+        margin-right: 120px;
+        }
+        .section4{
+            margin-right: 120px;
+            }
+.sec,.sec1{
+    color:  rgb(233, 213, 125);
+    font-size: 25px;
+    padding-left: 20px;
+}
+.sec,.sec2{
+    color:  rgb(233, 213, 125);
+    font-size: 25px;
+    padding-left: 20px;
+}
+.sec,.sec3{
+    color:  rgb(233, 213, 125);
+    font-size: 25px;
+    padding-left: 20px;
+}
+.sec,.sec4{
+    color:  rgb(233, 213, 125);
+    font-size: 25px;
+    padding-left: 20px;
+}
+.contact,.sec,.menu{
+    color:  rgb(253, 250, 251);
+    font-size: 18px;
+}
+.link1 a{
+color: rgb(253, 250, 251);
+text-decoration: none;
+font-size: 15px;
+padding-right: 40px;
+}
+.link1 a:hover{
+    color: rgb(233, 213, 125);
+}
+.line{
+    color: rgb(253, 250, 251);
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+footer{
+    background-color: #1d1814;
+    margin-top: 60px;
+}
+.base{
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.base span{
+    color: rgb(228, 206, 110);
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(247, 156, 21);
+}
+.lg{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(20, 20, 66);
+}
